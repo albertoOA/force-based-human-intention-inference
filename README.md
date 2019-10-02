@@ -27,7 +27,7 @@ python -m pip install jupyter
 ```
 
 ```
-python -m pip install -U scipy scikit-learn numpy pandas matplotlib plotly --user
+python -m pip install -U scipy scikit-learn numpy pandas matplotlib plotly==3.10 --user
 ```
 
 Finally, we also need two more libraries which were used for the implementation of the proposed approaches: *GPy* (dimensionality reduction using GPLVM) and *fastDTW* (efficient implementation of DTW). 
